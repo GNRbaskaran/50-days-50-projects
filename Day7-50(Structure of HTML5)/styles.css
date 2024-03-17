@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+header, footer {
+    background-color: #333;
+    color: gold;
+    padding: 10px;
+    text-align: center;
+}
+section, aside, article {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 40px;
+    color: gold;
+}
+section {
+    float: left;
+    width: 60%;
+}
+aside {
+    float: right;
+    width: 30%;
+}
+article {
+    clear: both;
+}
+header:hover{
+    color: yellow;
+    background-color: blueviolet;
+}
+footer:hover{
+    color: yellow;
+    background-color: blueviolet;
+}
+section:hover{
+    color: red;
+    background-color: yellow;
+}
+aside:hover{
+    color: red;
+    background-color: yellow;
+}
+article:hover{
+    color: red;
+    background-color: yellow;
+}
